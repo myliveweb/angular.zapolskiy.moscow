@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { FirstScreenModule }   from './first-screen/first-screen.module';
+import { HeaderScreenModule } from './header-screen/header-screen.module';
+
+import { AppComponent }   from './app.component';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +15,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    FirstScreenModule,
+    HeaderScreenModule
   ],
   providers: [],
   bootstrap: [AppComponent]

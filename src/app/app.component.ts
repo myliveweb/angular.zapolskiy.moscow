@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'app-root',
+    template: `
+      <div id="preloader">
+        <div id="status"></div>
+      </div>
+      <First-Screen></First-Screen>
+      <Header-Screen></Header-Screen>`
 })
-export class AppComponent {
-  title = 'zapolskiy-moscow';
-}
+export class AppComponent {}
