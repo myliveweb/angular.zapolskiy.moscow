@@ -5,10 +5,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { FirstScreenModule }   from './first-screen/first-screen.module';
 import { HeaderScreenModule } from './header-screen/header-screen.module';
+import { MenuModule } from './menu/menu.module';
 
 import { AppComponent }   from './app.component';
-
-
 @NgModule({
   declarations: [
     AppComponent
@@ -18,7 +17,8 @@ import { AppComponent }   from './app.component';
     AppRoutingModule,
     FormsModule,
     FirstScreenModule,
-    HeaderScreenModule
+    HeaderScreenModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
