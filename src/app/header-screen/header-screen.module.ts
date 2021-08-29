@@ -7,7 +7,7 @@ import { HeaderScreenComponent }   from './header-screen.component';
 
 @NgModule({
   declarations: [
-    HeaderScreenComponent,
+    HeaderScreenComponent
   ],
   imports: [
     BrowserModule,
