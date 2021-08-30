@@ -7,6 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { FirstScreenModule }   from './first-screen/first-screen.module';
 import { HeaderScreenModule } from './header-screen/header-screen.module';
 import { MenuModule } from './menu/menu.module';
+import { ServicesModule } from './services/services.module';
+import { PortfolioModule } from './portfolio/portfolio.module';
+import { SkillsModule } from './skills/skills.module';
 
 import { AppComponent }   from './app.component';
 @NgModule({
@@ -19,7 +22,10 @@ import { AppComponent }   from './app.component';
     FormsModule,
     FirstScreenModule,
     HeaderScreenModule,
-    MenuModule
+    MenuModule,
+    ServicesModule,
+    PortfolioModule,
+    SkillsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

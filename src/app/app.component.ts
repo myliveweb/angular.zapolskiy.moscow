@@ -7,6 +7,10 @@ import { Component} from '@angular/core';
         <div id="status"></div>
       </div>
       <First-Screen></First-Screen>
-      <Header-Screen></Header-Screen>`
+      <Header-Screen></Header-Screen>
+      <Services></Services>
+      <Portfolio></Portfolio>
+      <Skills></Skills>
+      `
 })
 export class AppComponent {}
