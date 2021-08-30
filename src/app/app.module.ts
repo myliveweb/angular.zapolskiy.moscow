@@ -10,6 +10,9 @@ import { MenuModule } from './menu/menu.module';
 import { ServicesModule } from './services/services.module';
 import { PortfolioModule } from './portfolio/portfolio.module';
 import { SkillsModule } from './skills/skills.module';
+import { ContactModule } from './contact/contact.module';
+import { FooterModule } from './footer/footer.module';
+import { CalltoactionModule } from './calltoaction/calltoaction.module';
 
 import { AppComponent }   from './app.component';
 @NgModule({
@@ -25,7 +28,10 @@ import { AppComponent }   from './app.component';
     MenuModule,
     ServicesModule,
     PortfolioModule,
-    SkillsModule
+    SkillsModule,
+    ContactModule,
+    FooterModule,
+    CalltoactionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

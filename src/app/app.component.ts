@@ -11,6 +11,9 @@ import { Component} from '@angular/core';
       <Services></Services>
       <Portfolio></Portfolio>
       <Skills></Skills>
+      <Calltoaction></Calltoaction>
+      <Contact></Contact>
+      <Footer></Footer>
       `
 })
 export class AppComponent {}
